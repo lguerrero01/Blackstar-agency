@@ -1,15 +1,6 @@
 @charset "UTF-8";
 
-/*!
-* Start Bootstrap - Agency v6.0.1 (https://startbootstrap.com/template-overviews/agency)
-* Copyright 2013-2020 Start Bootstrap
-* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v4.5.0 (https://getbootstrap.com/)
- 
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10745,7 +10736,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #343a40 !important;
 }
 
 a.text-primary:hover,
@@ -11047,7 +11038,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #EDEDED;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   letter-spacing: 0.0625em;
@@ -11119,17 +11110,22 @@ img::-moz-selection {
 }
 
 header.masthead {
-  padding-top: 10.5rem;
+  /* padding-top: 10.5rem;
   padding-bottom: 3rem;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/BLACKSTAR2.png");
   background-repeat: no-repeat;
+  /* height: 100%; */
+
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
   max-width: 100%;
-  height: 50rem;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background: url(../assets/img/ICO2.png);
+  background-size: 100% 100%;
 }
 
 header.masthead .masthead-subheading {
@@ -11151,8 +11147,19 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
+    padding-top: 2rem;
+    /* padding-bottom: 12.5rem; */
+
+    background-attachment: scroll;
+    /* background-position: center center; */
+    background-size: cover;
+    width: 110vw;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background: url(../assets/img/PORTA.png);
+    background-position: bottom;
+    background-size: 100% 100%;
   }
 
   header.masthead .masthead-subheading {
